@@ -2,7 +2,9 @@
 
 Question 1
 
-Given the following array and implement the table dynamically
+1. Given the following array and implement the table dynamically(you need to create the table via JavaScript)
+
+2. And then you should implement a form(focus on the logic only, you DON'T need to create the form via JavaScript) for taking the some format input form users(Student Name，Age，Phone,Address). When the user clicks the Add button, the data will be added into the existing table(after the existing data), and the user input in the form should be cleared. 
 
 */
 
@@ -48,12 +50,13 @@ const list = ['HTML', 'JavaScript', 'CSS', 'React', 'Redux', 'Java'];
 /*
 
 Question 3
-Given a array and implement a dropdown list with the following options dynamically 
-FYI: use 'value' in the object as the value attribute in the option tag when you create the dropdown list
+1. Given a array and implement a dropdown list with the following options dynamically 
+2. Console the value, when the user select one option
 
 */
 
 const dropDownList = [
+  { value: '', content: 'Please select' },
   { value: 'newark', content: 'Newark' },
   { value: 'santaClara', content: 'Santa Clara' },
   { value: 'unionCity', content: 'Union City' },
