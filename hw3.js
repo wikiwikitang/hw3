@@ -50,7 +50,7 @@ const list = ['HTML', 'JavaScript', 'CSS', 'React', 'Redux', 'Java'];
 /*
 
 Question 3
-1. Given a array and implement a dropdown list with the following options dynamically 
+1. Given the array and implement a dropdown list with the following options dynamically 
 2. Console the value, when the user select one option
 
 */
